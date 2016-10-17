@@ -9,7 +9,7 @@ Plugin 'Valloric/YouCompleteMe'
 Plugin 'suan/vim-instant-markdown'
 
 call vundle#end()            " required
-filetype plugin indent on    " required
+filetype plugin on    " required
 
 
 " Brief help
