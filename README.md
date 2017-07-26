@@ -1,10 +1,9 @@
-## Bash Scripts
+## Dotfiles
 
-Common bash scripts that I use
+Dotfiles that I use
 
 * Common bash aliases
-* Script to sync music with phone
-* Script for proxy login at IITD
+* vim config
 
 #### Usage
 

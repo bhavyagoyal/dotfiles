@@ -1,3 +1,6 @@
+set wildmode=longest,list,full
+set wildmenu
+
 set nocompatible
 filetype off 
 
