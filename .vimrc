@@ -28,3 +28,9 @@ set number
 set hlsearch
 set incsearch
 
+if &diff
+    colorscheme apprentice
+endif
+
+
+
