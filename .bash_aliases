@@ -19,3 +19,8 @@ alias diff='colordiff'
 alias gpustats='watch -n 0.5 nvidia-smi'
 alias wbjobs='watch -d bjobs'
 alias cafmake='make all -j20; ldd build/tools/caffe; make pycaffe'
+alias queuestats='bqueues -w -u bhavya.goyal | head -n 1; bqueues -w -u bhavya.goyal | grep _gpu | grep ^s'
+alias diskusage='/usr/lpp/mmfs/bin/mmlsquota -j diva  gpfs.ml1 --block-size=G'
+alias busers='busers $(bugroup swc4_ug)'
+
+

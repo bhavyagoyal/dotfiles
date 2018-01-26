@@ -8,8 +8,8 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'Valloric/YouCompleteMe'
-Plugin 'suan/vim-instant-markdown'
+"Plugin 'Valloric/YouCompleteMe'
+"Plugin 'suan/vim-instant-markdown'
 
 call vundle#end()            " required
 filetype plugin on    " required
@@ -27,7 +27,7 @@ filetype plugin on    " required
 set number
 set hlsearch
 set incsearch
-
+se tabstop=4
 if &diff
     colorscheme apprentice
 endif
