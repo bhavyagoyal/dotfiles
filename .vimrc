@@ -27,7 +27,6 @@ filetype plugin on    " required
 set number
 set hlsearch
 set incsearch
-se tabstop=4
 if &diff
     colorscheme apprentice
 endif

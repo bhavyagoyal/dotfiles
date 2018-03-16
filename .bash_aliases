@@ -17,7 +17,7 @@ alias exportproxydual='export http_proxy=http://10.10.78.62:3128;export https_pr
 # MISC
 alias diff='colordiff'
 alias gpustats='watch -n 0.5 nvidia-smi'
-alias wbjobs='watch -d bjobs'
+alias wbjobs='watch "bjobs -o \"id:8 queue:13 stat:5 submit_time:15 exec_host:15 name:20 sub_cwd\" |  sort -r"'
 alias cafmake='make all -j20; ldd build/tools/caffe; make pycaffe'
 alias queuestats='bqueues -w -u bhavya.goyal | head -n 1; bqueues -w -u bhavya.goyal | grep _gpu | grep ^s'
 alias diskusage='/usr/lpp/mmfs/bin/mmlsquota -j diva  gpfs.ml1 --block-size=G'
