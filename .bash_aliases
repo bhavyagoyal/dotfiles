@@ -20,7 +20,7 @@ alias exportproxydual='export http_proxy=http://10.10.78.62:3128;export https_pr
 # MISC
 alias diff='colordiff'
 alias l='ls -lah'
-alias ff='find . -name $1'
+alias ff='find . -name'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
@@ -32,8 +32,8 @@ alias gpustats='watch -n 0.5 nvidia-smi'
 alias wbjobsf='watch -n 5 "bjobs -o \"id:8 queue:13 stat:5 submit_time:15 exec_host:15 name:20 sub_cwd\" |  sort -r"'
 alias bjobsf='bjobs -o "id:8 queue:13 stat:5 submit_time:15 exec_host:15 name:20 sub_cwd" |  sort -r'
 alias cafmake='make all -j20; ldd build/tools/caffe; make pycaffe'
-alias queuestats='bqueues -w -u bhavya.goyal | head -n 1; bqueues -w -u bhavya.goyal | grep _gpu | grep ^s'
+alias queuestats='bqueues -w -u bhavya.goyal | head -n 1; bqueues -w -u bhavya.goyal | grep _gpu'
 alias diskusage='/usr/lpp/mmfs/bin/mmlsquota -j diva  gpfs.ml1 --block-size=G'
-alias busers='busers $(bugroup swc4_ug)'
+alias busersswc='busers $(bugroup swc4_ug)'
 
 

@@ -10,6 +10,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 "Plugin 'Valloric/YouCompleteMe'
 "Plugin 'suan/vim-instant-markdown'
+"Plugin 'scrooloose/nerdtree'
 
 call vundle#end()            " required
 filetype plugin on    " required
@@ -31,5 +32,6 @@ if &diff
     colorscheme apprentice
 endif
 
+map <F2> :NERDTreeToggle<CR>
 
 
