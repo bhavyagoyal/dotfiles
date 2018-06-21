@@ -5,3 +5,6 @@
 	name = Bhavya Goyal
 [core]
 	editor = vim
+[color]
+	status = auto
+	ui = auto
