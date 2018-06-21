@@ -6,9 +6,13 @@ ln -s $PWD/.bash_aliases ~/.bash_aliases
 if [ -e ~/.gitconfig ]; then mv ~/.gitconfig ~/.gitconfig_bak; fi
 ln -s $PWD/.gitconfig ~/.gitconfig
 
-# Use current .gitconfig and create backup of old one
+# Use current .inputrc and create backup of old one
 if [ -e ~/.inputrc ]; then mv ~/.inputrc ~/.inputrc_bak; fi
 ln -s $PWD/.inputrc ~/.inputrc
+
+# Use current .ssh config and create backup of old one
+if [ -e ~/.ssh/config ]; then mv ~/.ssh/config ~/.ssh/config_bak; fi
+ln -s $PWD/.sshconfig ~/.ssh/config
 
 # Create backup of old .vimrc and .vim
 if [ -e ~/.vimrc ]; then mv ~/.vimrc ~/.vimrc_bak; fi

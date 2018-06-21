@@ -25,6 +25,7 @@ alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
 alias .....='cd ../../../..'
+alias copytoclip='xclip -sel clip'
 
 
 # Supercom Aliases

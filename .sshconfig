@@ -1,0 +1,7 @@
+Host supercom
+	HostName 202.20.185.100
+	User bhavya.goyal
+Host quadro5
+	HostName 10.113.138.46
+	User bhavya.goyal
+
