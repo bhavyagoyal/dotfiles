@@ -4,4 +4,7 @@ Host supercom
 Host quadro5
 	HostName 10.113.138.46
 	User bhavya.goyal
+Host srgpu
+	HostName 75.17.101.11
+	User bhavya.goyal
 

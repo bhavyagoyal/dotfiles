@@ -13,6 +13,7 @@ ln -s $PWD/.inputrc ~/.inputrc
 # Use current .ssh config and create backup of old one
 if [ -e ~/.ssh/config ]; then mv ~/.ssh/config ~/.ssh/config_bak; fi
 ln -s $PWD/.sshconfig ~/.ssh/config
+chmod 600 ~/.ssh/config
 
 # Create backup of old .vimrc and .vim
 if [ -e ~/.vimrc ]; then mv ~/.vimrc ~/.vimrc_bak; fi
