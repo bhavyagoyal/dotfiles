@@ -19,6 +19,10 @@ chmod 600 ~/.ssh/config
 if [ -e ~/.vimrc ]; then mv ~/.vimrc ~/.vimrc_bak; fi
 if [ -e ~/.vim ]; then mv ~/.vim ~/.vim_bak; fi
 
+# Create backup of old .tmux.config
+if [ -e ~/.tmux.conf ]; then mv ~/.tmux.conf ~/.tmux.conf_bak; fi
+ln -s $PWD/.tmux.conf ~/.tmux.conf
+
 # Vundle Setup for Vim
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ln -s $PWD/.vimrc ~/.vimrc
