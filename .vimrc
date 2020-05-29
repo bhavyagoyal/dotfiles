@@ -25,12 +25,12 @@ filetype plugin on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 
-"set number
+set number
 set hlsearch
 set incsearch
-"if &diff
-"    colorscheme apprentice
-"endif
+if &diff
+    colorscheme apprentice
+endif
 
 map <F2> :NERDTreeToggle<CR>
 

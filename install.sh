@@ -27,5 +27,7 @@ ln -s $PWD/.tmux.conf ~/.tmux.conf
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ln -s $PWD/.vimrc ~/.vimrc
 vim +PluginInstall +qall
+mkdir ~/.vim/colors
+wget -P ~/.vim/colors/ https://raw.githubusercontent.com/romainl/Apprentice/master/colors/apprentice.vim
 
 
