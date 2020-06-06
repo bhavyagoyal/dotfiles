@@ -17,6 +17,7 @@ alias exportproxy='export http_proxy=http://10.10.78.22:3128;export https_proxy=
 alias unsetproxy='unset http_proxy;unset https_proxy'
 alias exportproxydual='export http_proxy=http://10.10.78.62:3128;export https_proxy=https://10.10.78.62:3128;export HTTP_PROXY=http://10.10.78.62:3128;export HTTPS_PROXY=https://10.10.78.62:3128'
 
+alias connectvpn='globalprotect connect --portal uwmadison.vpn.wisc.edu'
 
 # MISC
 alias diff='colordiff'
