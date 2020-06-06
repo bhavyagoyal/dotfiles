@@ -28,6 +28,7 @@ filetype plugin on    " required
 "set number
 set hlsearch
 set incsearch
+set mouse=a
 "if &diff
 "    colorscheme apprentice
 "endif
