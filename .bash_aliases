@@ -17,7 +17,8 @@ alias exportproxy='export http_proxy=http://10.10.78.22:3128;export https_proxy=
 alias unsetproxy='unset http_proxy;unset https_proxy'
 alias exportproxydual='export http_proxy=http://10.10.78.62:3128;export https_proxy=https://10.10.78.62:3128;export HTTP_PROXY=http://10.10.78.62:3128;export HTTPS_PROXY=https://10.10.78.62:3128'
 
-alias connectvpn='globalprotect connect --portal uwmadison.vpn.wisc.edu'
+alias vpnconnect='globalprotect connect --portal compsci.vpn.wisc.edu'
+alias vpndisconnect='globalprotect disconnect'
 
 # MISC
 alias diff='colordiff'
@@ -29,7 +30,7 @@ alias ...='cd ../..'
 alias ....='cd ../../..'
 alias .....='cd ../../../..'
 alias copytoclip='xclip -sel clip'
-
+alias rm="rm -I"
 
 # Supercom Aliases
 alias gpustats='watch -n 0.5 nvidia-smi'
