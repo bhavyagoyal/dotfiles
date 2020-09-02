@@ -21,6 +21,7 @@ alias connectvpn='globalprotect connect --portal uwmadison.vpn.wisc.edu'
 
 # MISC
 alias diff='colordiff'
+alias vim='vim -O'
 alias l='ls -lah'
 alias ff='find . -name'
 alias ..='cd ..'
