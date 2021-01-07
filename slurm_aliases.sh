@@ -57,6 +57,7 @@ free_gpus(){
 
 # Get an interactive GPU/CPU shell
 # Usage: it_shell [#GPUS] [hostname]
+# Use wacc partition if not available on batch_def
 # Remember to exit when done
 it_shell(){
   flags=" "
@@ -65,13 +66,14 @@ it_shell(){
   elif [ $# -eq 1 ]; then
     GPUS=$1
   elif [ $# -eq 2 ]; then
+    GPUS=$1
     flags+=" --nodelist=$2 "
   else
     echo "Use upto 2 arguments"
   fi
   flags+=" --gres=gpu:$GPUS "
   echo $flags
-  srun -C gpu $flags --pty -u bash -i
+  srun -C gpu --time=100:0:0 -J itsh $flags -c 12 --pty -u bash -i
 }
 
 
