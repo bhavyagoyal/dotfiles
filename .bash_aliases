@@ -23,6 +23,7 @@ alias vpndisconnect='globalprotect disconnect'
 
 # MISC
 alias diff='colordiff'
+alias vim='vim -O'
 alias l='ls -lah'
 alias ff='find . -name'
 alias ..='cd ..'
