@@ -18,6 +18,7 @@ alias unsetproxy='unset http_proxy;unset https_proxy'
 alias exportproxydual='export http_proxy=http://10.10.78.62:3128;export https_proxy=https://10.10.78.62:3128;export HTTP_PROXY=http://10.10.78.62:3128;export HTTPS_PROXY=https://10.10.78.62:3128'
 
 alias vpnconnect='globalprotect connect --portal compsci.vpn.wisc.edu'
+alias vpnwiscconnect='globalprotect connect --portal uwmadison.vpn.wisc.edu'
 alias vpndisconnect='globalprotect disconnect'
 
 # MISC
