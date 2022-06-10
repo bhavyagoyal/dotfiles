@@ -1,10 +1,19 @@
-Host supercom
-	HostName 202.20.185.100
-	User bhavya.goyal
-Host quadro5
-	HostName 10.113.138.46
-	User bhavya.goyal
-Host srgpu
-	HostName 75.17.101.11
-	User bhavya.goyal
-
+Host bhavyaubuntu
+	HostName 71.90.101.165
+	User bhavya
+Host euler
+	Hostname euler-login-1.wacc.wisc.edu
+	User bhavya
+Host oldfashioned
+	Hostname oldfashioned.cs.wisc.edu
+	User bhavya
+Host cruise
+ HostName shell.robot.car
+ User bhavya.goyal
+ ForwardAgent yes
+ ServerAliveInterval 60
+ ServerAliveCountMax 10
+ AddKeysToAgent yes
+ #SetEnv CS_PROFILE=a100x2-gpu
+ #SetEnv CS_PROFILE=gpu-x4
+ #SetEnv CS_PROFILE=gpu
