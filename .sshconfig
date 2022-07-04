@@ -7,6 +7,9 @@ Host euler
 Host oldfashioned
 	Hostname oldfashioned.cs.wisc.edu
 	User bhavya
+Host labpc
+	Hostname 10.130.244.17 
+	User bhavya
 Host cruise
  HostName shell.robot.car
  User bhavya.goyal
