@@ -1,10 +1,5 @@
 # SSH Login Shortcuts
-alias csc='ssh -X cs1120222@ssh1.iitd.ernet.in'
-alias gcl='ssh -X cs1120222@palasi.cse.iitd.ac.in'
-alias q5='ssh -X bhavya.goyal@10.113.138.46'
-alias sec1='ssh -X bhavya.goyal@202.20.185.100'
-alias srgpu='ssh -X bhavya.goyal@75.17.101.11'
-
+alias sorakapass="sshpass -f ~/.sorakapass"
 
 # Backup shortcuts
 drivePath="/media/bhavya/D/"
