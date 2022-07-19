@@ -7,6 +7,9 @@ Host euler
 Host oldfashioned
 	Hostname oldfashioned.cs.wisc.edu
 	User bhavya
+Host icarus
+	Hostname icarus.cs.wisc.edu
+	User bhavya
 Host labpc
 	Hostname 10.130.244.17 
 	User bhavya
