@@ -1,5 +1,8 @@
+#Host bhavyaubuntu
+#	HostName 71.90.101.165
+#	User bhavya
 Host bhavyaubuntu
-	HostName 71.90.101.165
+	HostName 192.168.0.253
 	User bhavya
 Host euler1
 	Hostname euler-login-1.wacc.wisc.edu
