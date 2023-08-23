@@ -4,6 +4,9 @@
 Host bhavyaubuntu
 	HostName 192.168.0.253
 	User bhavya
+Host euler
+	Hostname euler.engr.wisc.edu
+	User bhavya
 Host euler1
 	Hostname euler-login-1.wacc.wisc.edu
 	User bhavya
@@ -19,13 +22,13 @@ Host icarus
 Host labpc
 	Hostname 10.130.244.17 
 	User bhavya
-Host cruise
- HostName shell.robot.car
- User bhavya.goyal
- ForwardAgent yes
- ServerAliveInterval 60
- ServerAliveCountMax 10
- AddKeysToAgent yes
- #SetEnv CS_PROFILE=a100x2-gpu
- #SetEnv CS_PROFILE=gpu-x4
- #SetEnv CS_PROFILE=gpu
+#Host cruise
+# HostName shell.robot.car
+# User bhavya.goyal
+# ForwardAgent yes
+# ServerAliveInterval 60
+# ServerAliveCountMax 10
+# AddKeysToAgent yes
+# #SetEnv CS_PROFILE=a100x2-gpu
+# #SetEnv CS_PROFILE=gpu-x4
+# #SetEnv CS_PROFILE=gpu
