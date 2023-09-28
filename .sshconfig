@@ -6,13 +6,13 @@ Host bhavyaubuntu
 	User bhavya
 Host euler
 	Hostname euler.engr.wisc.edu
-	User bhavya
+	User bgoyal2
 Host euler1
 	Hostname euler-login-1.wacc.wisc.edu
-	User bhavya
+	User bgoyal2
 Host euler2
 	Hostname euler-login-2.wacc.wisc.edu
-	User bhavya
+	User bgoyal2
 Host oldfashioned
 	Hostname oldfashioned.cs.wisc.edu
 	User bhavya
