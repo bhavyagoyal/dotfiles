@@ -16,6 +16,9 @@ Host euler2
 Host oldfashioned
 	Hostname oldfashioned.cs.wisc.edu
 	User bhavya
+Host rockhopper-04
+	Hostname rockhopper-04.cs.wisc.edu
+	User bhavya
 Host icarus
 	Hostname icarus.cs.wisc.edu
 	User bhavya
