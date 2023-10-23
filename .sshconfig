@@ -16,6 +16,9 @@ Host euler2
 Host oldfashioned
 	Hostname oldfashioned.cs.wisc.edu
 	User bhavya
+Host pinksquirrel
+	Hostname pinksquirrel.cs.wisc.edu
+	User bhavya
 Host rockhopper-04
 	Hostname rockhopper-04.cs.wisc.edu
 	User bhavya
@@ -23,7 +26,7 @@ Host icarus
 	Hostname icarus.cs.wisc.edu
 	User bhavya
 Host labpc
-	Hostname 10.130.244.17 
+	Hostname 10.130.244.62 
 	User bhavya
 #Host cruise
 # HostName shell.robot.car
