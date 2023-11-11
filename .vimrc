@@ -10,7 +10,9 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 "Plugin 'Valloric/YouCompleteMe'
 "Plugin 'suan/vim-instant-markdown'
-"Plugin 'scrooloose/nerdtree'
+Plugin 'scrooloose/nerdtree'
+Plugin 'airblade/vim-gitgutter'
+Plugin 'joshdick/onedark.vim'
 
 call vundle#end()            " required
 filetype plugin on    " required
@@ -29,9 +31,11 @@ set number
 set hlsearch
 set incsearch
 set mouse=r
-if &diff
-    colorscheme apprentice
-endif
+"colorscheme apprentice
+colorscheme onedark
+"if &diff
+"    colorscheme apprentice
+"endif
 
 map <F2> :NERDTreeToggle<CR>
 
