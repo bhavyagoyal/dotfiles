@@ -10,6 +10,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 "Plugin 'Valloric/YouCompleteMe'
 "Plugin 'suan/vim-instant-markdown'
+Plugin 'ervandew/supertab'
 Plugin 'scrooloose/nerdtree'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'joshdick/onedark.vim'
@@ -40,3 +41,5 @@ colorscheme onedark
 map <F2> :NERDTreeToggle<CR>
 
 
+set list
+set listchars=tab:>-
