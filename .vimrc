@@ -1,5 +1,6 @@
 set wildmode=longest,list,full
 set wildmenu
+set term=xterm
 
 set nocompatible
 filetype off 
