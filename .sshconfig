@@ -1,8 +1,14 @@
 #Host bhavyaubuntu
 #	HostName 71.90.101.165
 #	User bhavya
-Host bhavyaubuntu
-	HostName 192.168.0.253
+Host homepcwifi
+	HostName 192.168.1.138
+	User bhavya
+Host homepclan
+	HostName 192.168.1.145
+	User bhavya
+Host homepccompsci
+	HostName 10.130.244.23
 	User bhavya
 Host euler
 	Hostname euler.engr.wisc.edu
