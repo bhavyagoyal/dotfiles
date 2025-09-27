@@ -1,0 +1,30 @@
+#!/bin/bash
+
+URL=$1
+OUTPUT_FILE=$2
+NUM_CONNECTIONS=$3
+
+# Get total file size
+TOTAL_SIZE=$(curl -sI "$URL" | grep -i 'Content-Length' | awk '{print $2}' | tr -d '\r')
+
+# Calculate chunk size
+CHUNK_SIZE=$((TOTAL_SIZE / NUM_CONNECTIONS))
+
+# Download parts
+for i in $(seq 0 $((NUM_CONNECTIONS - 1))); do
+    START_BYTE=$((i * CHUNK_SIZE))
+    END_BYTE=$((START_BYTE + CHUNK_SIZE - 1))
+    if [ $i -eq $((NUM_CONNECTIONS - 1)) ]; then
+        END_BYTE="" # Download to end for the last chunk
+    fi
+    curl -s -o "${OUTPUT_FILE}.part${i}" -H "Range: bytes=${START_BYTE}-${END_BYTE}" "$URL" &
+done
+
+wait # Wait for all background downloads to complete
+
+# Merge parts
+cat "${OUTPUT_FILE}.part"* > "$OUTPUT_FILE"
+
+# Clean up parts
+rm "${OUTPUT_FILE}.part"*
+

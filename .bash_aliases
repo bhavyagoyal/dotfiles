@@ -38,3 +38,8 @@ alias diskusage='/usr/lpp/mmfs/bin/mmlsquota -j diva  gpfs.ml1 --block-size=G'
 alias busersswc='busers $(bugroup swc4_ug)'
 
 
+alias aws-mlops-dev='export AWS_PROFILE=mlops-dev && aws sts get-caller-identity'
+alias aws-mlops-prod='export AWS_PROFILE=mlops-prod && aws sts get-caller-identity'
+alias aws-adroit-developer='export AWS_PROFILE=adroit-developer && aws sts get-caller-identity'
+
+

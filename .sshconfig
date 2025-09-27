@@ -1,18 +1,13 @@
-#Host bhavyaubuntu
-#	HostName 71.90.101.165
-#	User bhavya
 Host homepcwifi
-	HostName 192.168.1.138
+	HostName 192.168.6.211
 	User bhavya
-Host homepclan
-	HostName 192.168.1.145
-	User bhavya
-Host homepccompsci
-	HostName 10.130.244.23
+Host bhavyaxpshomewifi
+	HostName 192.168.6.178
 	User bhavya
 Host euler
 	Hostname euler.engr.wisc.edu
 	User bgoyal2
+	IdentityFile ~/.ssh/id_rsabk
 Host euler1
 	Hostname euler-login-1.wacc.wisc.edu
 	User bgoyal2
