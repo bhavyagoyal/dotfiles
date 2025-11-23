@@ -40,6 +40,7 @@ alias busersswc='busers $(bugroup swc4_ug)'
 
 alias aws-mlops-dev='export AWS_PROFILE=mlops-dev && aws sts get-caller-identity'
 alias aws-mlops-prod='export AWS_PROFILE=mlops-prod && aws sts get-caller-identity'
+alias aws-vlcn-stw-beta='export AWS_PROFILE=vlcn-stw-beta && aws sts get-caller-identity'
 alias aws-adroit-developer='export AWS_PROFILE=adroit-developer && aws sts get-caller-identity'
 
 
