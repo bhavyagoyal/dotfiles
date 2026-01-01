@@ -1,18 +1,11 @@
-# SSH Login Shortcuts
-alias sorakapass="sshpass -f ~/.sorakapass"
-
 ## Backup shortcuts
 #drivePath="/media/bhavya/D/"
 #alias backupd='rsync -r --update --delete --progress $drivePath /media/bhavya/Bhavya/Backup/D/'
 
-## Proxy settings
+## IITD Proxy settings
 #alias exportproxy='export http_proxy=http://10.10.78.22:3128;export https_proxy=https://10.10.78.22:3128'
 #alias unsetproxy='unset http_proxy;unset https_proxy'
 #alias exportproxydual='export http_proxy=http://10.10.78.62:3128;export https_proxy=https://10.10.78.62:3128;export HTTP_PROXY=http://10.10.78.62:3128;export HTTPS_PROXY=https://10.10.78.62:3128'
-
-alias vpnconnect='globalprotect connect --portal compsci.vpn.wisc.edu'
-alias vpnwiscconnect='globalprotect connect --portal uwmadison.vpn.wisc.edu'
-alias vpndisconnect='globalprotect disconnect'
 
 # MISC
 alias diff='colordiff'
@@ -26,7 +19,7 @@ alias .....='cd ../../../..'
 alias rm="rm -I"
 alias gpustats='watch -n 0.5 nvidia-smi'
 
-# Supercom Aliases
+# Samsung Supercom Aliases
 #alias wbjobsf='watch -n 5 "bjobs -o \"id:8 queue:13 stat:5 submit_time:15 exec_host:15 name:20 sub_cwd\" |  sort -r"'
 #alias bjobsf='bjobs -o "id:8 queue:13 stat:5 submit_time:15 exec_host:15 name:20 sub_cwd" |  sort -r'
 #alias cafmake='make all -j20; ldd build/tools/caffe; make pycaffe'
@@ -42,7 +35,7 @@ alias aws-adroit-developer='export AWS_PROFILE=adroit-developer && aws sts get-c
 
 # Amazon logins
 alias mwinitpass='cat ~/.mpass | mwinit '
-alias mwinitpassof='cat ~/.mpass | mwinit -o -f'
+alias mwinitos='mwinit -o -s '
 
 # Random aliases
 alias docker-compose="docker compose"
@@ -57,4 +50,13 @@ copytopclip() {
 	fi
 }
 #alias copytoclip='xclip -sel clip'
+
+# UW VPN
+alias vpnconnect='globalprotect connect --portal compsci.vpn.wisc.edu'
+alias vpnwiscconnect='globalprotect connect --portal uwmadison.vpn.wisc.edu'
+alias vpndisconnect='globalprotect disconnect'
+
+# UW SSH Login Shortcuts
+alias sorakapass="sshpass -f ~/.sorakapass"
+
 
