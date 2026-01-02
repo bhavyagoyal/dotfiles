@@ -23,6 +23,10 @@ if [ -e ~/.vim ]; then mv ~/.vim ~/.vim_bak; fi
 if [ -e ~/.tmux.conf ]; then mv ~/.tmux.conf ~/.tmux.conf_bak; fi
 ln -s $PWD/.tmux.conf ~/.tmux.conf
 
+# Create synlink for midway init script
+ln -s $PWD/.mwinitpass.sh ~/.mwinitpass.sh
+chmod +x .mwinitpass.sh
+
 # Vundle Setup for Vim
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ln -s $PWD/.vimrc ~/.vimrc

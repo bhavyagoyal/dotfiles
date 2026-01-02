@@ -34,9 +34,9 @@ alias aws-vlcn-stw-beta='export AWS_PROFILE=vlcn-stw-beta && aws sts get-caller-
 alias aws-adroit-developer='export AWS_PROFILE=adroit-developer && aws sts get-caller-identity'
 
 # Amazon logins
-alias mwinitpass='cat ~/.mpass | mwinit '
+#alias mwinitpass='cat ~/.mpass | mwinit '
 alias mwinitos='mwinit -o -s '
-
+alias mwinitpass='~/.mwinitpass.sh '
 # Random aliases
 alias docker-compose="docker compose"
 
