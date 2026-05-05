@@ -32,6 +32,7 @@ alias aws-mlops-dev='export AWS_PROFILE=mlops-dev && aws sts get-caller-identity
 alias aws-mlops-prod='export AWS_PROFILE=mlops-prod && aws sts get-caller-identity'
 alias aws-mlops-beta='export AWS_PROFILE=mlops-beta && aws sts get-caller-identity'
 alias aws-vlcn-stw-beta='export AWS_PROFILE=vlcn-stw-beta && aws sts get-caller-identity'
+alias aws-vlcn-stw-prod='export AWS_PROFILE=vlcn-stw-prod && aws sts get-caller-identity'
 alias aws-adroit-developer='export AWS_PROFILE=adroit-developer && aws sts get-caller-identity'
 alias aws-vlcn-stow-mlops-data-lake-query-beta='export AWS_PROFILE=vlcn-stow-mlops-data-lake-query-beta && aws sts get-caller-identity'
 alias aws-vlcn-stow-mlops-data-lake-query-prod='export AWS_PROFILE=vlcn-stow-mlops-data-lake-query-prod && aws sts get-caller-identity'
